@@ -25,6 +25,11 @@ const CategoriesData = [
     name: "Blockchain",
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting",
   },
+  {
+    icon: "uil uil-bitcoin-circle",
+    name: "Blockchain",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting",
+  },
 ];
 
 // Courses Data

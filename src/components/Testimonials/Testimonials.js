@@ -21,6 +21,14 @@ const Testimonials = () => {
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+          600: {
+            slidesPerView: 3,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        }}
         modules={[FreeMode, Pagination]}
         className="mySwiper"
       >

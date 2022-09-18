@@ -1,29 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
-  // show/hide nav menu
+  //show/hide nav menu
 
-  // const menu = document.querySelector(".nav_menu");
-  // const menuBtn = document.querySelector(".open-menu-btn");
-  // const closeBtn = document.querySelector("#close-menu-btn");
+  useEffect(() => {
+    const menu = document.querySelector(".nav_menu");
+    const menuBtn = document.querySelector(".open-menu-btn");
+    const closeBtn = document.querySelector("#close-menu-btn");
 
-  // menuBtn.addEventListener("click", () => {
-  //   menu.style.display = "flex";
-  //   closeBtn.style.display = "inline-block";
-  //   menuBtn.style.display = "none";
-  // });
+    console.log(menuBtn);
+    console.log(closeBtn);
 
-  // // close nav menu
+    menuBtn.addEventListener("click", () => {
+      menu.style.display = "flex";
+      closeBtn.style.display = "inline-block";
+      menuBtn.style.display = "none";
+    });
 
-  // const closeNav = () => {
-  //   menu.style.display = "none";
-  //   closeBtn.style.display = "none";
-  //   menuBtn.style.display = "inline-block";
-  // };
+    // close nav menu
 
-  // closeBtn.addEventListener("click", closeNav);
+    const closeNav = () => {
+      menu.style.display = "none";
+      closeBtn.style.display = "none";
+      menuBtn.style.display = "inline-block";
+    };
+
+    closeBtn.addEventListener("click", closeNav);
+  }, []);
+
   return (
     <div>
       {/* STAR NAVBAR */}
@@ -50,7 +56,7 @@ const Nav = () => {
             <i className="uil uil-bars"></i>
           </button>
           <button id="close-menu-btn">
-            <i class="uil uil-multiply"></i>
+            <i className="uil uil-multiply"></i>
           </button>
         </div>
       </nav>

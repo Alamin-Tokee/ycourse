@@ -71,3 +71,43 @@
 .category p {
     font-size: 0.85rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    /************ CATEGORIES *******/
+    
+        .categories {
+            height: auto;
+        }
+    
+        .categories_container {
+            grid-template-columns: 1fr;
+            gap: 3rem;
+        }
+    
+        .categories_left {
+            margin-right: 0;
+        }
+}
+
+
+/************* MEDIA QUERIS FOR PHONE *****************/
+
+@media screen and (max-width:600px) {
+    /************CATEGORIES ***************/
+        .categories_right {
+            grid-template-columns: 1fr 1fr;
+            gap: 0.7rem;
+        }
+    
+        .category {
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+    
+        .category_icon {
+            margin-top: 4px;
+            display: inline-block;
+        }
+}

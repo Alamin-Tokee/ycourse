@@ -42,3 +42,20 @@
     top: -1.5rem;
     transform: rotate(45deg);
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    
+}
+
+
+/************* MEDIA QUERIS FOR PHONE *****************/
+
+@media screen and (max-width:600px) {
+
+    /*********************** TESTIMONIAL*******/
+        .testimonial_body {
+            padding: 1.2rem;
+        }
+}

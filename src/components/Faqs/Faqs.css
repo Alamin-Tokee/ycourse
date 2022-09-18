@@ -40,3 +40,26 @@
 .faq_open p {
     display: block;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+
+    /************ FAG *******/
+    
+        .faqs_container {
+            grid-template-columns: 1fr;
+        }
+    
+        .faq {
+            padding: 1;
+        }
+
+}
+
+
+/************* MEDIA QUERIS FOR PHONE *****************/
+
+@media screen and (max-width:600px) {
+
+}

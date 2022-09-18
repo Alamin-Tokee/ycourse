@@ -30,3 +30,29 @@
     margin: 1.2rem;
     font-size: 0.9rem;
 }
+
+@media screen and (max-width: 1024px) {
+
+        /************ COURSES *******/
+        
+            .course {
+                margin-top: 0;
+            }
+        
+            .courses_container {
+                grid-template-columns: 1fr 1fr;
+        
+            }
+
+}
+
+
+/************* MEDIA QUERIS FOR PHONE *****************/
+
+@media screen and (max-width:600px) {
+
+    /***********************COURSE *********/
+        .courses_container {
+            grid-template-columns: 1fr;
+        }
+}
