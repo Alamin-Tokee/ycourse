@@ -6,9 +6,9 @@ import Nav from "../../components/Nav/Nav";
 const Contactpage = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -10,13 +10,13 @@ import Footer from "../../components/Footer/Footer";
 const Homepage = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Header />
       <Categories />
       <Courses />
       <Faqs />
       <Testimonials />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

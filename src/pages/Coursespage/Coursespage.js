@@ -6,9 +6,9 @@ import Nav from "../../components/Nav/Nav";
 const Coursespage = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Courses />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

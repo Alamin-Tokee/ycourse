@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => {
@@ -28,21 +29,21 @@ const Nav = () => {
       {/* STAR NAVBAR */}
       <nav>
         <div className="container nav_container">
-          <a href="index.html">
+          <Link to="/">
             <h2>Ycourse</h2>
-          </a>
+          </Link>
           <ul className="nav_menu">
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="about.html">About</a>
+              <Link to="/about">About</Link>
             </li>
             <li>
-              <a href="courses.html">Courses</a>
+              <Link to="/courses">Courses</Link>
             </li>
             <li>
-              <a href="contact.html">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
           <button className="open-menu-btn">

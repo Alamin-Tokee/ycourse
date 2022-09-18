@@ -7,10 +7,10 @@ import Team from "../../components/Team/Team";
 const Aboutpage = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Achievements />
       <Team />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
